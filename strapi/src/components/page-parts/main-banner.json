@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_page_parts_main_banners",
+  "info": {
+    "displayName": "PP / Main Banner",
+    "icon": "address-book",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "claim": {
+      "type": "string"
+    },
+    "perex": {
+      "type": "richtext"
+    },
+    "buttons": {
+      "type": "component",
+      "repeatable": true,
+      "component": "buttons.button"
+    }
+  }
+}

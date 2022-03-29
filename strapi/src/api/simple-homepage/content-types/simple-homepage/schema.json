@@ -1,0 +1,38 @@
+{
+  "kind": "singleType",
+  "collectionName": "simple_homepages",
+  "info": {
+    "singularName": "simple-homepage",
+    "pluralName": "simple-homepages",
+    "displayName": "Simple Homepage",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "perex": {
+      "type": "richtext"
+    },
+    "ctaButtonLeft": {
+      "displayName": "button",
+      "type": "component",
+      "repeatable": false,
+      "component": "buttons.button"
+    },
+    "ctaButtonRight": {
+      "type": "component",
+      "repeatable": false,
+      "component": "buttons.button"
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.seo"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "kind": "singleType",
+  "collectionName": "component_homepages",
+  "info": {
+    "singularName": "component-homepage",
+    "pluralName": "component-homepages",
+    "displayName": "Component Homepage",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "content": {
+      "type": "dynamiczone",
+      "components": [
+        "page-parts.main-banner"
+      ]
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.seo"
+    }
+  }
+}
