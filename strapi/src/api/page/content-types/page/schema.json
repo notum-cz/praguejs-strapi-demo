@@ -15,7 +15,8 @@
     "content": {
       "type": "dynamiczone",
       "components": [
-        "page-parts.main-banner"
+        "page-parts.main-banner",
+        "sections.basic-section"
       ]
     },
     "seo": {

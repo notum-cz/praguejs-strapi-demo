@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_sections_basic_sections",
+  "info": {
+    "displayName": "Basic Section",
+    "icon": "align-center"
+  },
+  "options": {},
+  "attributes": {
+    "htmlId": {
+      "type": "string"
+    }
+  }
+}

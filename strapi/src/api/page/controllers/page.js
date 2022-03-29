@@ -10,7 +10,7 @@ const modelUid = "api::page.page";
 
 module.exports = createCoreController(modelUid, ({ strapi }) => ({
   async find(ctx) {
-    const { results, meta } = await strapi.service(modelUid).find({
+    const { results, meta } = await strapi.service(modelUid).findWithSections({
       ...getFullPopulateObject(modelUid),
       ...ctx.query,
     });
