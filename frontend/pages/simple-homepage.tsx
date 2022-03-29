@@ -21,14 +21,6 @@ export default function SimpleHomepage(props: any) {
 
   return (
     <>
-      <AppBar position="relative">
-        <Toolbar>
-          <CameraIcon sx={{ mr: 2 }} />
-          <Typography variant="h6" color="inherit" noWrap>
-            {data.heading}
-          </Typography>
-        </Toolbar>
-      </AppBar>
       <main>
         {/* Hero unit */}
         <Box
@@ -54,7 +46,7 @@ export default function SimpleHomepage(props: any) {
                 __html: edjsParser.parse(JSON.parse(data.perex)),
               }}
             ></div>
-            
+
             <Stack
               sx={{ pt: 4 }}
               direction="row"
@@ -71,22 +63,6 @@ export default function SimpleHomepage(props: any) {
           </Container>
         </Box>
       </main>
-      {/* Footer */}
-      {/* <Box sx={{ bgcolor: "background.paper", p: 6 }} component="footer">
-          <Typography variant="h6" align="center" gutterBottom>
-            Footer
-          </Typography>
-          <Typography
-            variant="subtitle1"
-            align="center"
-            color="text.secondary"
-            component="p"
-          >
-            Something here to give the footer a purpose!
-          </Typography>
-          <Copyright />
-        </Box> */}
-      {/* End footer */}
     </>
   );
 }

@@ -30,7 +30,7 @@ function modifyPageContent(page) {
   return page;
 }
 
-module.exports = createCoreService(modelUid, ({ strapi }) => ({
+module.exports = createCoreService(modelUid, () => ({
   async findWithSections(ctx) {
     const { results, meta } = await super.find(ctx);
 

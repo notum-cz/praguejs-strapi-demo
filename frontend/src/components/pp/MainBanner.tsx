@@ -1,3 +1,4 @@
+/* @ts-ignore */
 import { Box, Container, Typography, Stack, Button } from "@mui/material";
 import edjsHTML from "editorjs-html";
 import { IPagePartsMainBanner } from "../../../types/IPagePartsMainBanner";

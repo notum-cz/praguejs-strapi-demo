@@ -1,8 +1,10 @@
 import { Fragment } from "react";
 import { MainBanner } from "./pp/MainBanner";
+import { BasicSection } from "./sections/BasicSection";
 
 const mapContentToComponents = {
   "page-parts.main-banner": MainBanner,
+  "sections.basic-section": BasicSection,
 };
 
 interface DynamicContentProps {
